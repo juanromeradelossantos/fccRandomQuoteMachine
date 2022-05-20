@@ -1,0 +1,32 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+
+body {
+  height: 100vh;
+}
+
+#quote-box {
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+}
+@media(max-width: 600px) {
+  #quote-box {
+    width: 90%;
+  }
+}
+
+#text {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#author {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+#new-quote:focus {
+  box-shadow: none;
+}
